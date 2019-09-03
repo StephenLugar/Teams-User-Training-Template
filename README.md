@@ -16,4 +16,6 @@ Login with your admin account to post the JSON file to your Office 365 Tenant. E
 
 Past the text from the JSON file in to the request body and hit Run Query
 
+![](/images/Microsoft%20Graph%20Explorer%20Post%20Success.png)
+
 Once you it is completed you should see Success - Status Code 202, it will take a few minutes the script to create the Team, channels and tabs.
