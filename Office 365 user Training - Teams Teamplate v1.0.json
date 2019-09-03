@@ -1,0 +1,175 @@
+{
+    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
+    "visibility": "Public",
+    "displayName": "Office 365 Training",
+    "description": "This is a training channel of Office 365 products for all users",
+    "channels": [
+        {
+            "displayName": "Announcements 📢",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample announcements channel that is favorited by default. Use this channel to make important team, product, and service announcements."
+        },
+        {
+            "displayName": "Teams",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Teams Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "Yammer",
+            "isFavoriteByDefault": true,
+            "description": "This is a Yammer training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Yammer Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/yammer-video-training-2c0ce4c6-0a99-466f-bf1b-cbe7ffa9779a?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/yammer-video-training-2c0ce4c6-0a99-466f-bf1b-cbe7ffa9779a?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "Outlook",
+            "isFavoriteByDefault": true,
+            "description": "This is a Outlook training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Outlook Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/outlook-for-windows-training-8a5b816d-9052-4190-a5eb-494512343cca?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/outlook-for-windows-training-8a5b816d-9052-4190-a5eb-494512343cca?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "OneDrive",
+            "isFavoriteByDefault": true,
+            "description": "This is a OneDrive training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "OneDrive Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "Word",
+            "isFavoriteByDefault": true,
+            "description": "This is a Word training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Word Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/word-for-windows-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/word-for-windows-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "Excel",
+            "isFavoriteByDefault": true,
+            "description": "This is a Excel training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Excel Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/excel-for-windows-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/excel-for-windows-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "PowerPoint",
+            "isFavoriteByDefault": true,
+            "description": "This is a PowerPoint training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "PowerPoint Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/powerpoint-for-windows-training-40e8c930-cb0b-40d8-82c4-bd53d3398787?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/powerpoint-for-windows-training-40e8c930-cb0b-40d8-82c4-bd53d3398787?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "OneNote",
+            "isFavoriteByDefault": true,
+            "description": "This is a OneNote training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "OneNote Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/onenote-video-training-1c983b65-42f6-42c1-ab61-235aae5d0115?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/onenote-video-training-1c983b65-42f6-42c1-ab61-235aae5d0115?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        },
+        {
+            "displayName": "Access",
+            "isFavoriteByDefault": true,
+            "description": "This is a Access training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Access Training",
+                    "configuration": {
+                        "ContentUrl":"https://support.office.com/en-us/article/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US",
+                        "websiteUrl":"https://support.office.com/en-us/article/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US"
+                    }
+                }
+            ]
+        }
+    ],
+    "memberSettings": {
+        "allowCreateUpdateChannels": false,
+        "allowDeleteChannels": false,
+        "allowAddRemoveApps": false,
+        "allowCreateUpdateRemoveTabs": false,
+        "allowCreateUpdateRemoveConnectors": false
+    },
+    "guestSettings": {
+        "allowCreateUpdateChannels": false,
+        "allowDeleteChannels": false
+    },
+    "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+    },
+    "messagingSettings": {
+        "allowUserEditMessages": true,
+        "allowUserDeleteMessages": true,
+        "allowOwnerDeleteMessages": true,
+        "allowTeamMentions": true,
+        "allowChannelMentions": true
+    },
+    "discoverySettings": {
+        "showInTeamsSearchAndSuggestions": true
+    }
+}
