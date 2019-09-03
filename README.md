@@ -10,7 +10,6 @@ Channel Names:	General, Announcements, Excel, OneDrive, OneNote, Outlook, PowerP
 In each channel, there is a tab to Microsoft training resources for that product. The website is loaded inside the tab so users do not need to exit Teams.
 
 To import the JSON file, you will need to use Microsoft Graph Explorer.
-
 https://developer.microsoft.com/en-us/graph/graph-explorer
 
 Login with your admin account to post the JSON file to your Office 365 Tenant. Ensure you have it set to Post - Beta - https://graph.microsoft.com/beta/Teams
